@@ -3,11 +3,19 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #a3c7e7; /* Mudei o fundo para um azul claro */
+  color: #333; /* Alterei a cor padrão do texto */
+  line-height: 1.6; /* Adicionei espaçamento entre as linhas */
+  padding: 10px; /* Dei um espaçamento interno */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  background-color: #eee; /* Fundo cinza claro para destacar o código */
+  padding: 4px; /* Espaçamento interno */
+  border-radius: 4px; /* Cantos arredondados */
+  color: #c7254e; /* Texto em vermelho */
 }
+
+
